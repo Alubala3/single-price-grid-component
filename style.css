@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    box-sizing: border-box;
+    background-color: hsl(204, 43%, 93%);
+}
+
+main
+{
+    padding-top: 100px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.main-cont
+{
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 0px;
+    box-shadow: black;
+    box-shadow:  0 1px 10px rgba(0,0,0,0.15), 0 1px 11px rgba(0,0,0,0.22);
+}
+
+.first-cont
+{
+    font-family: Karla;
+    padding: 40px;
+}
+
+.down-cont
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+  /*  grid-template-columns: repeat(autofit,  minmax(12rem,1fr));*/
+    background-color: hsl(183, 61%, 52%);
+    
+}
+
+.sec-cont
+{
+    background-color: hsl(179, 62%, 43%);
+    padding: 40px;
+    color: #fff;
+}
+
+
+.third-cont
+{
+    padding: 40px;
+}
+
+.myFirst-head
+{
+    font-size: 20px;
+    font-family: karla;
+    font-weight: 700;
+    color: lightseagreen
+}
+
+.h3-para
+{
+    margin-top: 20px;
+    color: hsl(71, 73%, 54%);
+    font-size: 16px;
+    font-style: karla;
+}
+
+.h3-text
+{
+    margin-top: 20px;
+    line-height: 1.5;
+    color: hsl(218, 22%, 67%);
+    font-family: karla;
+}
+
+.sec
+{
+    font-weight: 400;
+    font-family: karla;
+    font-size: 17px;
+}
+
+.price
+{
+    padding-top: 18px;
+    font-size: 30px;
+}
+
+.priceIn
+{
+    display: inline;
+    position: relative;
+}
+
+span
+{
+    font-size: 15px;
+    position: relative ;
+    bottom: 8px;
+}
+
+.sec-para
+{
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: karla;
+}
+
+.sec-para-btn
+{
+    margin-top: 56px;
+    text-align: center;
+    align-items: center;
+}
+
+.sec-para-btn button
+{
+    padding: 10px 70px 10px 70px;
+    background-color:  hsl(71, 73%, 54%); 
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: karla;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.15), 0 1px 11px rgba(0,0,0,0.22);
+}
+
+.third-head
+{
+    font-size: 25px;
+    font-family: karla;
+    color: #fff;
+}
+
+.third-cont1
+{
+    padding-top: 20px;
+    line-height: 1.5;
+    font-family: karla;
+    color: #fff;
+    font-size: 17px;
+}
+
+footer
+{
+    text-align: center;
+    justify-content: center;
+}
+
+/* rensponsiveness section******/
+
+@media screen and (max-width: 508px){
+    main
+    {
+        padding-top: 10px;
+        max-width: 450px;
+        margin: 40px 40px;
+        
+    }
+    .down-cont
+    {
+       /* grid-template-columns: repeat(autofit,  minmax(12rem,1fr));*/
+        display: flex;
+        flex-direction: column;
+    }
+}
